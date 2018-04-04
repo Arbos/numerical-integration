@@ -61,6 +61,7 @@ T trapezoidal_method(F f, T a, T b, int steps)
 	return r;
 }
 
+// Function to integrate
 double f(double x)
 {
 	return 4.0/(1.0 + x*x);
